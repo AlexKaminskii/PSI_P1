@@ -1,0 +1,155 @@
+@import url('podstawa.css');
+
+
+
+
+.article {
+  float: left;
+  background-color: white;
+  width: 26vw;
+  height: 80%;
+  margin-left: 7vw;
+  border: 1vw solid var(--f1-red);
+  border-top-right-radius: 4.5vw;
+  border-left: 0vw;
+  border-bottom: 0px;
+  line-height: 2.7vw;
+}
+
+
+img.article {
+  height: 80%;
+  width: 80%;
+  border-radius: 1.6vw;
+  margin-top: 3.5vw;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+  border: 0px;
+  transition: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+  border-spacing: 12vw;
+}
+
+.article:hover img {
+
+  width: 85%;
+  height: 85%;
+  margin-top: 2vw;
+  margin-left: 1.75vw;
+}
+/*///////////////////////////////////////////////////////////*/
+
+
+
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid2x2>div {
+  display: flex;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  /* flex-basis: calc(50% - 40px); */
+  width: 25vw;
+  height: 40vh;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin-bottom: 2vw;
+  margin-top: -0.3vw;
+}
+
+.grid2x2>div>div {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: row; */
+  margin-left: 2vw;
+} 
+
+.grid2x2>div>img {
+  width: 18vw;
+  height: 23vh;
+  align-self: center;
+  margin-top: 0.5vw;
+
+}
+
+
+
+.box {
+  background-color: var(--f1white);
+  border-right: var(--f1grey) solid 0.15vw;
+  border-bottom: var(--f1grey) solid 0.15vw;
+  border-bottom-right-radius: 3vw;
+  transition: ease-in 0.2s;
+}
+.box img {
+  filter: blur(0.05vw) grayscale(50%);
+  transition: all ease-in-out 0.15s;
+}
+
+.box:hover {
+  border-color: rgba(255, 0, 0, 0.787);
+}
+
+.box:hover img {
+  filter: blur(0) grayscale(0);
+
+  transform: scale(1.05) ;
+}
+
+/* .box:hover h3 {
+  margin-top: 1.4vw;
+  font-size: 1.4vw;
+  transition: 0.1s ease-out;
+
+}
+
+.box:hover p {
+  font-size: 1vw;
+  transition: linear 0.1s;
+} */
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+h3 {
+  font-size: 1.2vw;
+}
+
+p {
+  font-size: 0.9vw;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .article {
+    width: 90%;
+  }
+
+
+
+}
