@@ -1,5 +1,27 @@
 @import url('podstawa.css');
 
+:root {
+    --f1-red: #df0601;
+    --f1white: #fdfdfe;
+    --f1grey: rgba(164, 163, 163, 0.615);
+}
+
+#main {
+    margin-top: 5vw;
+}
+
 #main_img {
-    width: 100%;
+    width: 70vw;
+    filter: grayscale(70%);
+}
+
+
+.podpis {
+    border-top: 1vw solid var(--f1-red);
+    margin-top: -0.5vw;
+    width: 69.85vw;
+    border-left: var(--f1grey) solid 0vw;
+    border-right: var(--f1grey) solid 0.15vw;
+    border-bottom: var(--f1grey) solid 0.15vw;
+    border-bottom-right-radius: 1vw;
 }

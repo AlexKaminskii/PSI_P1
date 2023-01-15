@@ -11,7 +11,7 @@ body {
     margin: 0px;
     background-color: #FDFDFEFF;
     line-height: 1.2vw;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.01vw;
 }
 
 * {
@@ -28,14 +28,14 @@ body::-webkit-scrollbar {
 
 
 #menu {
-    position: fixed;
+    position: sticky;
     background-color: var(--f1-red);
     color: rgb(225, 214, 214);
     width: 100%;
     height: 2.8vw;
     overflow: hidden;
     text-align: center;
-    top: 0;
+    top: 0vw;
 }
 
 
