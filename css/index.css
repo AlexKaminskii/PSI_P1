@@ -1,7 +1,9 @@
 @import url('podstawa.css');
 
 
-
+#main {
+  margin-top: 5vw;
+}
 
 .article {
   float: left;
