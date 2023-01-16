@@ -54,7 +54,6 @@ img.article {
 /*///////////////////////////////////////////////////////////*/
 
 
-
 .grid2x2 {
   min-height: 100%;
   display: flex;
@@ -80,7 +79,7 @@ img.article {
   justify-content: center;
   flex-direction: row; */
   margin-left: 2vw;
-} 
+}
 
 .grid2x2>div>img {
   width: 18vw;
@@ -99,6 +98,7 @@ img.article {
   border-bottom-right-radius: 3vw;
   transition: ease-in 0.2s;
 }
+
 .box img {
   filter: blur(0.05vw) grayscale(50%);
   transition: all ease-in-out 0.15s;
@@ -111,7 +111,7 @@ img.article {
 .box:hover img {
   filter: blur(0) grayscale(0);
 
-  transform: scale(1.05) ;
+  transform: scale(1.05);
 }
 
 /* .box:hover h3 {
@@ -195,6 +195,79 @@ p {
         font-size: 3vw;
         line-height: 4vw;
       }
+
+
+
+
+
+
+
+      /* //////////////////////////////////////// */
+
+
+
+
+
+
+
+            .grid2x2 {
+              float: left;
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: row;
+            }
+
+            .grid2x2 div {
+              position: relative;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              margin-left: 2.5vw;
+              margin-right: 2.5vw;
+              width: 44%;
+              height: 42vw;
+              flex-direction: column;
+              margin-bottom: 5vw;
+              margin-top: -0.3vw;
+                
+            }
+      
+            .grid2x2>div>img {
+              width: 40vw;
+              height: 12vh;
+              align-self: center;
+              margin-top: 0.5vw;
+              filter: blur(0) grayscale(0);
+            }
+      
+            .box {
+              background-color: var(--f1white);
+              border-right: var(--f1grey) solid 0.15vw;
+              border-bottom: var(--f1grey) solid 0.15vw;
+              border-bottom-right-radius: 3vw;
+              transition: ease-in 0.2s;
+            }
+      
+            .box:hover {
+              border-color: rgba(255, 0, 0, 0.787);
+            }
+
+
+h3 {
+  font-size: 3vw;
+  line-height: 2.75vw;
+  margin-right: -20vw;
+  margin-bottom: -0.6vw;
+}
+
+.box>div>p {
+  font-size: 2.5vw;
+  line-height: 3vw;
+  margin-right: -20vw;
+  margin-bottom: -10vw
+}
+
+
   }
 
 
