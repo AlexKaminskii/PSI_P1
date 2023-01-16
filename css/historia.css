@@ -1,10 +1,5 @@
 @import url('podstawa.css');
 
-:root {
-    --f1-red: #df0601;
-    --f1white: #fdfdfe;
-    --f1grey: rgba(164, 163, 163, 0.615);
-}
 
 #main {
     margin-top: 5vw;

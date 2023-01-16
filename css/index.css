@@ -1,13 +1,15 @@
 @import url('podstawa.css');
 
-
+body {
+  background-color: var(--f1white);
+}
 #main {
-  margin-top: 5vw;
+  margin-top: 2vw;
 }
 
 .article {
   float: left;
-  background-color: white;
+  background-color: var(--f1white);
   width: 26vw;
   height: 80%;
   margin-left: 7vw;
@@ -39,6 +41,15 @@ img.article {
   height: 85%;
   margin-top: 2vw;
   margin-left: 1.75vw;
+}
+
+.article h2 {
+  font-size: 3vw;
+  line-height: 3.5vw;
+}
+
+.article p {
+  font-size: 1.5vw;
 }
 /*///////////////////////////////////////////////////////////*/
 
@@ -148,10 +159,42 @@ p {
 
 @media screen and (max-width: 600px) {
 
-  .article {
-    width: 90%;
+    .article {
+        float: left;
+        background-color: var(--f1white);
+        width: 90%;
+        height: 80%;
+        margin-left: 7vw;
+        border: 1vw solid var(--f1-red);
+        border-top-right-radius: 4.5vw;
+        border-left: 0vw;
+        border-bottom: 0px;
+        line-height: 2.7vw;
+      }
+    
+    
+      img.article {
+        height: 95%;
+        width: 90%;
+        border-radius: 1.6vw;
+        margin-top: 3.5vw;
+        margin-left: 2vw;
+        margin-bottom: 2vw;
+        border: 0px;
+        transition: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in-out;
+        border-spacing: 12vw;
+      }
+
+      .article h2 {
+        font-size: 5vw;
+      }
+
+      .article p {
+        font-size: 3vw;
+        line-height: 4vw;
+      }
   }
 
 
-
-}
