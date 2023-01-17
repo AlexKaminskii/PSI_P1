@@ -14,14 +14,16 @@
     --border: rgba(164, 163, 163, 0.615);
     --red: #df0601;
     --opposite: #333333;
+    --lighter: #d2d2d2;
 }
 
 .theme-dark {
     --background: #333333;
-    --font: #f1f1f1;
+    --font: #7a7a7a;
     --border: rgba(164, 163, 163, 0.615);
     --red: #df0601;
     --opposite: #d2d2d2;
+    --lighter: #5c5c5c;
 }
 
 body {
@@ -39,7 +41,7 @@ body {
     background-color: var(--red);
 }
 
-body::-webkit-scrollbar {
+html::-webkit-scrollbar {
     display: none;
 }
 

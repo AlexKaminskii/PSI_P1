@@ -20,13 +20,15 @@
     border-bottom: var(--border) solid 0.15vw;
     border-bottom-right-radius: 1vw;
     font-size: 1vw;
+    background-color: var(--lighter);
 }
 
 footer {
-    background-color: rgb(176, 176, 176);
+    background-color: var(--border);
     color: var(--background);
     font-size: 1vw;
-    height: 12vh;
+    height: 15vh;
+    margin-bottom: -5vw;
 }
 
 footer p {
@@ -42,24 +44,27 @@ p.content {
     width: 80%;
     height: auto;
     margin-bottom: 6vh;
+    
 }
 
 .content img {
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
 }
 .content {
-    height: 70vh;
-    width: 50vw;
+    height: 60%;
+    width: 60%;
+    
 }
 
 .podpis-content {
     border-top: 0.5vw solid var(--red);
-    margin-top: -0.6vw;
-    width: 44.85vw;
+    margin-top: -0.25vw;
+    width: auto;
     border-left: var(--border) solid 0vw;
     border-right: var(--border) solid 0.15vw;
     border-bottom: var(--border) solid 0.15vw;
     border-bottom-right-radius: 1vw;
     font-size: 1vw;
+    background-color: var(--lighter);
 }
