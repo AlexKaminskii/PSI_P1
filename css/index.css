@@ -1,7 +1,7 @@
 @import url('podstawa.css');
 
 body {
-  background-color: var(--f1white);
+  background-color: var(--background);
 }
 #main {
   margin-top: 2vw;
@@ -9,11 +9,11 @@ body {
 
 .article {
   float: left;
-  background-color: var(--f1white);
+  background-color: var(--background);
   width: 26vw;
   height: 80%;
   margin-left: 7vw;
-  border: 1vw solid var(--f1-red);
+  border: 1vw solid var(--red);
   border-top-right-radius: 4.5vw;
   border-left: 0vw;
   border-bottom: 0px;
@@ -92,9 +92,9 @@ img.article {
 
 
 .box {
-  background-color: var(--f1white);
-  border-right: var(--f1grey) solid 0.15vw;
-  border-bottom: var(--f1grey) solid 0.15vw;
+  background-color: var(--background);
+  border-right: var(--border) solid 0.15vw;
+  border-bottom: var(--border) solid 0.15vw;
   border-bottom-right-radius: 3vw;
   transition: ease-in 0.2s;
 }
@@ -161,11 +161,11 @@ p {
 
     .article {
         float: left;
-        background-color: var(--f1white);
+        background-color: var(--background);
         width: 90%;
         height: 80%;
         margin-left: 7vw;
-        border: 1vw solid var(--f1-red);
+        border: 1vw solid var(--red);
         border-top-right-radius: 4.5vw;
         border-left: 0vw;
         border-bottom: 0px;
@@ -241,9 +241,9 @@ p {
             }
       
             .box {
-              background-color: var(--f1white);
-              border-right: var(--f1grey) solid 0.15vw;
-              border-bottom: var(--f1grey) solid 0.15vw;
+              background-color: var(--background);
+              border-right: var(--border) solid 0.15vw;
+              border-bottom: var(--border) solid 0.15vw;
               border-bottom-right-radius: 3vw;
               transition: ease-in 0.2s;
             }

@@ -2,7 +2,7 @@
 
 
 #main {
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 
 #main_img {
@@ -12,11 +12,54 @@
 
 
 .podpis {
-    border-top: 1vw solid var(--f1-red);
+    border-top: 1vw solid var(--red);
     margin-top: -0.5vw;
     width: 69.85vw;
-    border-left: var(--f1grey) solid 0vw;
-    border-right: var(--f1grey) solid 0.15vw;
-    border-bottom: var(--f1grey) solid 0.15vw;
+    border-left: var(--border) solid 0vw;
+    border-right: var(--border) solid 0.15vw;
+    border-bottom: var(--border) solid 0.15vw;
     border-bottom-right-radius: 1vw;
+    font-size: 1vw;
+}
+
+footer {
+    background-color: rgb(176, 176, 176);
+    color: var(--background);
+    font-size: 1vw;
+    height: 12vh;
+}
+
+footer p {
+    margin-left: 1vw;
+    padding-top: 1vw;
+}
+
+p.content {
+    margin-top: 5vh;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    margin-left: 8vw;
+    width: 80%;
+    height: auto;
+    margin-bottom: 6vh;
+}
+
+.content img {
+    height: 90%;
+    width: 90%;
+}
+.content {
+    height: 70vh;
+    width: 50vw;
+}
+
+.podpis-content {
+    border-top: 0.5vw solid var(--red);
+    margin-top: -0.6vw;
+    width: 44.85vw;
+    border-left: var(--border) solid 0vw;
+    border-right: var(--border) solid 0.15vw;
+    border-bottom: var(--border) solid 0.15vw;
+    border-bottom-right-radius: 1vw;
+    font-size: 1vw;
 }
