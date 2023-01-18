@@ -1,73 +1,75 @@
 @import url('../podstawa.css');
 
+
+
 #main {
-    margin-top: 2vw;
+  margin-top: 2vw;
 }
 
 
 .grid2x2 {
-    min-height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    color: var(--font);
-  }
-  
-  .grid2x2>div {
-    display: flex;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    /* flex-basis: calc(50% - 40px); */
-    width: 40%;
-    height: 40vh;
-    /* justify-content: center; */
-    flex-direction: column;
-    margin-bottom: 2vw;
-    margin-top: -0.3vw;
-  }
-  
-  .grid2x2>div>div {
-    /* display: flex;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: var(--font);
+}
+
+.grid2x2>div {
+  display: flex;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  /* flex-basis: calc(50% - 40px); */
+  width: 40%;
+  height: 40vh;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin-bottom: 2vw;
+  margin-top: -0.3vw;
+}
+
+.grid2x2>div>div {
+  /* display: flex;
     justify-content: center;
     flex-direction: row; */
-    margin-left: 2vw;
-  }
-  
-  .grid2x2>div>img {
-    width: 18vw;
-    height: 23vh;
-    align-self: center;
-    margin-top: 0.5vw;
-  
-  }
-  
-  
-  
-  .box {
-    background-color: var(--background);
-    border-right: var(--border) solid 0.15vw;
-    border-bottom: var(--border) solid 0.15vw;
-    border-bottom-right-radius: 3vw;
-    transition: ease-in 0.2s;
-  }
-  
-  .box img {
-    filter: blur(0.05vw) grayscale(50%);
-    transition: all ease-in-out 0.15s;
-  }
-  
-  .box:hover {
-    border-color: rgba(255, 0, 0, 0.787);
-  }
-  
-  .box:hover img {
-    filter: blur(0) grayscale(0);
-  
-    transform: scale(1.05);
-  }
-  
+  margin-left: 2vw;
+}
 
-  
+.grid2x2>div>img {
+  width: 18vw;
+  height: 23vh;
+  align-self: center;
+  margin-top: 0.5vw;
+
+}
+
+
+
+.box {
+  background-color: var(--background);
+  border-right: var(--border) solid 0.15vw;
+  border-bottom: var(--border) solid 0.15vw;
+  border-bottom-right-radius: 3vw;
+  transition: ease-in 0.2s;
+}
+
+.box img {
+  filter: blur(0.05vw) grayscale(50%);
+  transition: all ease-in-out 0.15s;
+}
+
+.box:hover {
+  border-color: rgba(255, 0, 0, 0.787);
+}
+
+.box:hover img {
+  filter: blur(0) grayscale(0);
+
+  transform: scale(1.05);
+}
+
+
+
 h3 {
   font-size: 1.7vw;
   margin-bottom: -0.75vh;
@@ -82,13 +84,14 @@ p {
   height: 90%;
   margin-top: 10vh;
 }
+
 #zmiana_regulacji>img {
   width: 80%;
   height: 100%;
 }
 
 #zmiana_regulacji p {
-  font-size: 2vw;
+  font-size: 1.5vw;
   line-height: 4.5vh;
 }
 
