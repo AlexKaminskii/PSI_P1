@@ -99,3 +99,15 @@ button.menu:hover {
 }
 
 
+footer {
+    background-color: var(--border);
+    color: var(--background);
+    font-size: 1vw;
+    height: 15vh;
+    margin-bottom: -5vw;
+}
+
+footer p {
+    margin-left: 1vw;
+    padding-top: 1vw;
+}

@@ -1,5 +1,44 @@
 @import url('../podstawa.css');
 
 #main {
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
+
+#zmiana_regulacji {
+    width: 100vw;
+    height: 90%;
+    margin-top: 10vh;
+}
+
+#zmiana_regulacji>img {
+    width: 80%;
+    height: 100%;
+}
+
+#zmiana_regulacji p {
+    font-size: 1.5vw;
+    line-height: 4.5vh;
+    margin-right: 20vw;
+    margin-left: 7.5vw;
+}
+
+#zmiana_regulacji h1 {
+    font-size: 3.5vw;
+    margin-left: 5vw;
+}
+
+#podpis {
+    border-top: 1vw solid var(--red);
+    margin-top: -0.5vw;
+    width: 79.9%;
+    border-left: var(--border) solid 0vw;
+    border-right: var(--border) solid 0.15vw;
+    border-bottom: var(--border) solid 0.15vw;
+    border-bottom-right-radius: 1vw;
+    background-color: var(--lighter);
+}
+
+#podpis > p {
+    font-size: 1.2vw;
+}
+

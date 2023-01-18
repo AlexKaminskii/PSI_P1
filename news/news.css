@@ -1,6 +1,8 @@
 @import url('../podstawa.css');
 
-
+body {
+  overflow: hidden;
+}
 
 #main {
   margin-top: 2vw;
@@ -79,22 +81,3 @@ p {
   font-size: 1.1vw;
 }
 
-#zmiana_regulacji {
-  width: 100vw;
-  height: 90%;
-  margin-top: 10vh;
-}
-
-#zmiana_regulacji>img {
-  width: 80%;
-  height: 100%;
-}
-
-#zmiana_regulacji p {
-  font-size: 1.5vw;
-  line-height: 4.5vh;
-}
-
-#zmiana_regulacji h1 {
-  font-size: 3.5vw;
-}
