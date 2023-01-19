@@ -18,6 +18,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <!-- <meta name="theme-color" content="#df0601"> -->
 </head>
+
 <body>
     <script src="stats.js"></script>
 
@@ -39,26 +40,47 @@
     </div>
 
 
+    <script>
 
+
+        function createIFrame() {
+            var z1 = document.getElementById("z1").value;
+            var z2 = document.getElementById("z2").value;
+            var z3 = document.getElementById("z3").value;
+            var iframe = document.createElement("iframe");
+            iframe.src = "http://ergast.com/api/f1/" + z1 + "/" + z2 + "/pitstops/" + z3;
+            iframe.width = "60%";
+            iframe.height = "500";
+            document.getElementById("iframe-container").appendChild(iframe);
+        }
+
+
+    </script>
 
 
     <div id="main">
-    <form>
-        <label>Sezon:</label>
-        <input type="text"
-            id="z1">
+        <form>
+            <label>Sezon:</label>
+            <input type="text"
+                id="z1">
+            <br>
+            <label>Runda:</label>
+            <input type="text"
+                id="z2">
+            <br>
+            <label>Numer pitstopu:</label>
+            <input type="text"
+                id="z3">
+            <br>
+
+            <button type="button"
+                onclick="createIFrame()">Utwórz iframe</button>
+        </form>
         <br>
-        <label>Runda:</label>
-        <input type="text"
-            id="z2">
-        <br>
-        <button type="button"
-            onclick="createIFrame()">Utwórz iframe</button>
-    </form>
-    <br>
-    <div id="iframe-container"></div>
+        <div id="iframe-container"></div>
 
 
-</div>
+    </div>
 </body>
+
 </html>

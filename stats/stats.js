@@ -1,9 +1,9 @@
-function button() {
-    let sezon = document.getElementById("sezon").value;
-    let runda = document.getElementById("runda").value;
-    const iframe = document.createElement("iframe");
-    iframe.id = "db"
-    iframe.src = "https://ergast.com/api/f1/${sezon}/${runda}"
-
+function createIFrame() {
+    var z1 = document.getElementById("z1").value;
+    var z2 = document.getElementById("z2").value;
+    var iframe = document.createElement("iframe");
+    iframe.src = "http://ergast.com/api/f1/" + z1 + "/" + z2;
+    iframe.width = "90%";
+    iframe.height = "500";
+    document.getElementById("iframe-container").appendChild(iframe);
 }
-
