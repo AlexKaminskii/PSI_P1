@@ -1,0 +1,40 @@
+@import url('../podstawa.css');
+body {
+    overflow: hidden;
+}
+#main {
+    margin-top: 4vw;
+}
+
+label {
+    margin-left: 4vw;
+    font-size: 2vw;
+    margin-top: 10vw;
+}
+
+input {
+    margin-right: 60vw;
+    float: right;
+    height: 2vw;
+    width: 15vw;
+    font-size: 1.4vw;
+}
+
+#btn {
+    background-color: var(--background);
+    color: var(--font);
+    border: 0.1vw solid  var(--red);
+    margin-top: 2vw;
+    margin-left: 10vw;
+    font-size: 1.5vw;
+}
+
+iframe {
+    height: 30vw;
+    width: 101%;
+    border:0;
+}
+
+.input {
+    margin-bottom: 2vw;
+}

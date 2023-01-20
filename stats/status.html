@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <title>F1 - News</title>
     <link rel="stylesheet"
-        href="style.css">
+        href="stats.css">
     <meta name="viewport"
         content="width=device-width,initial-scale=1">
     <link rel="stylesheet"
@@ -45,9 +45,7 @@
 
         function createIFrame() {
             var iframe = document.createElement("iframe");
-            iframe.src = "http://ergast.com/api/f1/status?limit=150";
-            iframe.width = "60%";
-            iframe.height = "500";
+            iframe.src = "http://ergast.com/api/f1/status/"
             document.getElementById("iframe-container").appendChild(iframe);
         }
 
@@ -58,10 +56,9 @@
     <div id="main">
         <form>
 
-            <button type="button"
+            <button type="button" id="btn"
                 onclick="createIFrame()">Utwórz iframe</button>
         </form>
-        <br>
         <div id="iframe-container"></div>
 
 
