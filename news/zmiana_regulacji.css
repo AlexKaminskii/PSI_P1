@@ -20,6 +20,7 @@
     line-height: 4.5vh;
     margin-right: 20vw;
     margin-left: 7.5vw;
+    color: var(--font);
 }
 
 #content h1 {
