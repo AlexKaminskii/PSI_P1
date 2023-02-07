@@ -33,7 +33,7 @@ body {
     background-color: var(--background);
     line-height: 1.2vw;
     letter-spacing: 0.01vw;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 * {
@@ -147,7 +147,7 @@ footer p {
         background-color: var(--red);
         color: white;
         text-decoration: none;
-        font-size: 1.8vw;
+        font-size: 5vw;
         border: none;
         width: 100%;
         margin: 0px;
@@ -157,15 +157,36 @@ footer p {
         background-color: var(--red);
         color: var(--font);
         border: 0;
-    }
-
-    #container div {
-        width: 100%;
-        /* display: none; */
-        margin: 2vh;
-        font-size: 3vw;
+        margin-bottom: 0;
     }
 
 
+
+    center div {
+        margin: 2.5vh;
+    }
+
+
+        #container {
+            display: none;
+            background-color: var(--red);
+            padding-top: 1vh;
+            z-index: 19;
+            position: relative;
+            width: 100vw;
+            height: 20vh;
+            /* margin: auto; */
+        }
+    #glowna {
+        margin-top: 3vh;
+    }
+
+
+    .buttonmobile {
+        background-color: var(--red);
+        border: 0vw;
+        color: white;
+        height: 1vh;
+    }
 
 }

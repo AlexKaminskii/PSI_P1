@@ -164,6 +164,8 @@ p {
 @media screen and (max-width: 768px) {
 
     .article {
+      margin: auto;
+      position: static;
         float: left;
         background-color: var(--background);
         width: 90%;
@@ -276,12 +278,6 @@ h3 {
 }
 
 
-#container>div>div {
-  margin-top: 2vw;
-
-
-
-  }
 
 
 }

@@ -12,7 +12,7 @@
     // }
 
 function menu() {
-  var x = document.getElementById("mobile");
+  var x = document.getElementById("container");
   if (x.style.display === "block") {
     x.style.display = "none";
   } 
