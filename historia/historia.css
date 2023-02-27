@@ -68,3 +68,24 @@ p.content {
     font-size: 1vw;
     background-color: var(--lighter);
 }
+
+
+@media screen and (max-width: 768px) {
+    p.content {
+        margin: 2vw;
+        font-size: 5vw;
+        line-height: 3vh;
+    }
+    .podpis {
+        font-size: 4vw;
+        line-height: 2.5vh;
+    }
+        .podpis-content {
+            font-size: 4vw;
+            line-height: 2.5vh;
+        }
+    footer {
+        font-size: 3vw;
+        line-height: 1.5vh;
+    }
+}

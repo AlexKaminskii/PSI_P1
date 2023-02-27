@@ -44,3 +44,14 @@
     font-size: 1.2vw;
 }
 
+@media screen and (max-width: 768px) {
+    #content p {
+        font-size: 5vw;
+    }
+    footer {
+        font-size: 3vw;
+    }
+    #content h1 {
+        font-size: 6.5vw;
+    }
+}
